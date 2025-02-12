@@ -1,0 +1,198 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+*{
+    margin: 0px;
+}
+#part{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#part1{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+#part2{
+    padding-left: 10px;
+}
+
+#part3{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+li{
+    list-style: none;
+    
+}
+
+#part3 a{
+    text-decoration: none;
+    color: black;   
+    cursor: pointer;
+    
+}
+
+#part17
+{
+    position: relative;
+}
+#part18
+{
+    position: relative;
+}
+#part17 h1
+{
+    margin-left: 60px;
+}
+#part18 input
+{
+    position: relative;
+    right: 850px;
+    top: 150px;
+    padding-left: 60px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#part18 button
+{
+    
+    width: 130px;
+    height: 40px;
+    position: absolute;
+    right: 1080px;
+    top: 480px;
+    border: none;
+    background-color: rgb(12, 115, 180);
+}
+#part18 td{
+    margin-top: 60px;
+    padding-top: 30px;
+}
+
+#Container{
+    background-color: rgb(3, 31, 76);
+    width: 100%;
+    height: 250px;
+    position: relative;
+    top: 400px;
+}
+#part20 h1{
+    margin-left: 60px;
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+#part20 tr{
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    top: 80px;
+    
+}
+#part20 i{
+    color: white;
+}
+#part20 a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+#Icons
+{
+    margin-left: 25px;
+    position: absolute;
+    bottom: 30px;
+    color: white;
+    text-indent: 20px;
+}
+#part21 h1
+{
+    margin-left: 60px;
+    position: absolute;
+    top: 30px;
+    left: 300px;
+    color: white;
+}
+#part21 p{
+    width: 200px;
+    position: absolute;
+    top: 80px;
+    left: 360px;
+    color: white;  
+}
+#part22 h1
+{
+    margin-left: 60px;
+    position: absolute;
+    top: 30px;
+    left: 680px;
+    color: white;
+}
+#part22 a
+{   
+    margin-left: 750px;
+    position: relative;
+    line-height: 30px;
+    bottom: 20px;
+    color: white;   
+}
+#part23 h1
+{
+    margin-left: 1050px;
+    position: absolute;
+    top: 30px;
+    color: white;
+}
+
+#part23 input{
+    width: 180px;
+    height: 40px;
+    position: absolute;
+    top: 90px;
+    margin-left: 1040px;
+    /* border: none; */
+    background: none;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(254, 253, 253);
+}
+#part23 button
+{
+    width: 185px;
+    height: 50px;
+    position: absolute;
+    left: 1040px;
+    top: 140px;
+    background-color:rgb(13, 200, 238);
+    border: none;
+}
+#part23 p
+{
+    position: absolute;
+    top: 255px;
+    margin-left: 500px;
+}
+
+

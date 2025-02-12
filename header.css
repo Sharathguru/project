@@ -1,0 +1,683 @@
+*{
+    margin: 0px;
+}
+#part{
+    background-color: lightblue;
+    font-family: 'Times New Roman', Times, serif;
+}
+#part1{
+    padding: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+#part1 i{
+    font-style: italic;
+}
+/* #part3 a{
+font-style: italic;
+} */
+
+header{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+     
+}
+nav{
+    display: flex;
+    height: 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+#part2{
+    padding-left: 10px;
+}
+
+#part3{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+#part3 a:hover
+{
+    color: aqua;
+}
+#part3 a:link
+{
+    color: aqua;
+}
+li{
+    list-style: none;
+    
+}
+
+#part3 a{
+    text-decoration: none;
+    color: black;   
+    cursor: pointer;
+    
+}
+a:hover{
+    color: aqua;
+}
+#imgpart1{
+    height: 400px;
+}
+
+#imgpart1 img{
+    width: 100%;
+    height: 400px;
+    
+}
+#imgpart1 h1{
+    margin-left: 40px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 0px;
+    width: 500px;   
+    bottom: 385px;
+}
+
+#imgpart1 p{
+    margin-left: 40px;
+    display: flex;
+    justify-content: left;
+    position: relative;
+    left: 0px;
+    width: 500px;   
+    bottom: 355px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+#imgpart1 button{
+    background-color: rgb(14, 155, 216);
+    color: white;
+    margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 0px;
+    width: 100px;
+    height: 40px;   
+    bottom: 335px;
+    border: none;
+}
+
+#part4{
+    margin-top: 15px;
+    margin-left: 40px;
+    display: flex;
+    justify-content: left;
+    
+}
+#part4 h1{
+    width: 60px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px; 
+}
+.part5color {
+    color: rgb(26, 154, 154);
+
+}
+#part4 p{
+    font-size: 20px; 
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+    top: 40px;
+    right: 130px;
+    width: 1000px;
+}
+
+#part6{
+    margin-left: 70px;
+    background-color:whitesmoke;
+    position: relative;
+    top: 200px;
+    right: 1150px;
+    width: 450px;
+    height: 200px;
+
+}
+#part6 img{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 180px;
+    height: 150px;
+}
+#part6 h1{
+    margin: 10px;
+    position: relative;
+    left: 260px;
+    bottom: 150px;
+    width: 200px;
+    font-size: 25px;
+}
+#part6 p{
+    padding-left: 400px;
+    position: relative;
+    right: 130px;
+    bottom: 150px;
+    text-align: justify;
+    width: 150px;
+}
+#part6 a{
+    position: relative;
+    bottom: 142px;
+    left: 180px;
+    background-color: transparent;
+    color: rgb(14, 93, 203);
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+#part7{
+    background-color: whitesmoke;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 720px;
+    top: 65px;
+    
+}
+#part7 img{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 200px;
+    height: 150px;
+}
+#part7 h1{
+    margin: 10px;
+    position: relative;
+    left: 250px;
+    bottom: 150px;
+    width: 200px;
+}
+#part7 p{
+    padding-left: 400px;
+    position: relative;
+    right: 130px;
+    bottom: 150px;
+    text-align: justify;
+    width: 150px;
+}
+#part7 a{
+    position: relative;
+    bottom: 142px;
+    left: 200px;
+    background-color: transparent;
+    color: rgb(14, 93, 203);
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#part8{
+    background-color: whitesmoke;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 100px;
+    top: 135px;
+    
+}
+#part8 img{
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 180px;
+    height: 150px;
+}
+#part8 h1{
+    margin: 10px;
+    position: relative;
+    left: 240px;
+    bottom: 150px;
+    width: 200px;
+}
+#part8 p{
+    padding-left: 400px;
+    position: relative;
+    right: 130px;
+    bottom: 150px;
+    text-align: justify;
+    width: 150px;
+}
+#part8 a{
+    position: relative;
+    bottom: 142px;
+    left: 190px;
+    background-color: transparent;
+    color: rgb(14, 93, 203);
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+
+#part9{
+    background-color: whitesmoke;
+    width: 450px;
+    height: 200px;
+    position: relative;
+    left: 720px;
+    top: -65px;
+    
+}
+#part9 img{
+    padding-left: 50px;
+    padding-top: 10px;
+    width: 100px;
+    height: 150px;
+}
+#part9 h1{
+    margin: 10px;
+    position: relative;
+    left: 260px;
+    bottom: 150px;
+    width: 200px;
+}
+#part9 p{
+    padding-left: 400px;
+    position: relative;
+    right: 130px;
+    bottom: 150px;
+    text-align: justify;
+    width: 150px;
+}
+#part9 a{
+    position: relative;
+    bottom: 142px;
+    left: 200px;
+    background-color: transparent;
+    color: rgb(14, 93, 203);
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+#part10{
+    display: flex;
+    margin-left: 40px;
+    position: relative;
+    bottom: -90px;
+    cursor: pointer;
+
+}
+#part10 h1{
+    width: 70px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px; 
+}
+.part10{
+    color: rgb(26, 154, 154);
+    padding-left: 15px; 
+    position: relative; 
+    
+}
+#part10 p{
+    position: relative;
+    top: 50px;
+    right: 150px;
+    width: 400px;
+    text-align: justify;
+    
+}
+.sample{
+    background-color: rgb(4, 32, 92);
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: -60px;
+    top: 40px;
+}
+.sample img{
+    width: 500px;
+    position: relative;
+    left: 23px;
+    bottom: 70px;
+}
+#part10 a{
+    width: 100px;
+    height:30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: -192px;
+    right: 450px;
+    background-color: rgb(13, 181, 247);
+    color: rgb(2, 10, 23);
+    border: none;
+    font-style: bold;
+    font-size: 15px;
+    text-decoration: none;
+}
+#part10 a{
+    text-decoration: none;  
+}
+
+#part12{
+    width: 100%;
+    display: flex;
+}
+
+#part12 img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    top: 570px;
+    color: rgba(0, 0, 0, 0.545);
+    opacity: 0.8;
+}
+#part11 h1
+{
+    margin-left: 60px;
+    position: relative;
+    top: 240px;
+    font-variant: small-caps;
+    font-size: 3rem;
+    color: white;
+
+}
+#part11 p{
+    margin-left: 60px;
+    position: relative;
+    top: 255px;
+    padding-right: 750px;
+    text-align: justify;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+}
+#part11 form{
+    margin-left: 60px;
+    position: relative;
+    top: 280px;
+    
+}
+#part11 input{
+    width: 280px;
+    height: 30px;
+    border: none;
+
+}
+#part11 a{
+    margin-left: 60px;
+    position: relative;
+    right: 65px;    
+}
+#part11 button{
+    width: 130px;
+    height: 30px;
+    border: none;
+    background-color: rgb(13, 181, 247);
+    color: white;
+}
+
+#part12{
+    display: flex;
+}
+#part12 h1{
+     padding-left: 10px;   
+    position: relative;
+    top: 650px;
+    left: 30px;
+    font-size: 2rem;
+}
+.part12color{
+    color: rgb(13, 181, 247);
+}
+#part13{
+    display: flex;
+    gap: 10%;
+}
+
+#part13 p{
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+    width: 390px;
+    position: relative;
+    top: 785px;
+    right: 300px;
+    text-align: justify;
+    border: 2px inset rebeccapurple;
+}
+#part14 i{
+    font-size: 2rem;
+    position: relative;
+    top: 770px;
+    right: 260px;
+    background-color: rgb(13, 181, 247);
+    border: 2px inset rgb(13, 181, 247);
+    color: white;
+    padding: 5px;
+}
+#part14i{
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+#part15{
+    position: relative;
+    top: 920px;
+    gap: 10%;
+}
+#part15 img{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    position: relative;
+    left: 60px;
+}
+#part15 p{
+    position: relative;
+    left: 230px;
+    bottom: 70px;
+    width: 100px;
+}
+#part16 img{
+    margin-left: 40px;
+    width: 100px;
+    height: 100px;
+    border-radius: 80%;
+    position: relative;
+    left: -600px;
+    top: 918px;
+}
+#part16 p{
+    position: relative;
+    left: -430px;
+    top: 850px;
+    width: 100px;
+}
+
+#Container5{
+    margin-left: 40px;
+    width: 60%;
+    display: flex;
+    position: relative;
+    top: 950px;
+}
+
+#part17{
+    display: flex;
+    position: relative;
+    top: 155px;
+    right: 308px;
+}
+#part18 h1{
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+}
+#part17 td{
+    margin-top: 60px;
+    padding-top: 30px;
+}
+#part17 input{
+    padding-left: 60px;
+    width: 300px;
+    height: 40px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#part17 button{
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 325px;
+    right: 355px;
+    border: none;
+    background-color: rgb(17, 206, 239);
+    color: white;
+}
+#part18 div{
+    background-color: black;
+    width: 700px;
+    height: 400px;
+    position: relative;
+    left: 500px;
+    top: 1060px;
+}
+
+#part19{
+    background-color:rgb(3, 31, 76);
+    width: 100%;
+    height: 230px;
+    position: relative;
+    top: 1265px;
+}
+#parts19{
+    position: relative;
+    top: 24px;
+}
+#part20 h1{
+    margin-left: 60px;
+    position: relative;
+    top: 1050px;
+    color: rgb(215, 214, 214);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 10px;
+}
+#part20 td{
+    padding-top: 20px;
+    position: relative;
+    top: 1040px;
+    left: 60px;
+}
+#part20 table{
+    padding-right: 120px;
+}
+#part20 i{
+    color: white;
+} 
+#part20 a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(211, 210, 210);
+    font-family: 'Times New Roman', Times, serif;
+}
+#Icons{
+    padding-left: 40px;
+    text-indent: 10px;
+    position: relative;
+    top: 1060px;
+    color: white;
+}
+#part21{
+    display: flex;
+    position: relative;
+    top: 880px;
+}
+#part21 h1{
+    position: relative;
+    left: 400px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 30px;
+    color: white;
+}
+#part21 p{
+    width: 200px;
+    position: relative;
+    left: 355px;
+    top: 34px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: justify;  
+    color: white;
+}
+#part22{
+    position: relative;
+    top: 765px;
+    padding-left: 800px;
+}
+#part22 h1{
+    margin-bottom: 7px;
+    color: white;
+}
+#part22 li{
+    position: relative;
+    top: -10px;
+    padding-top: 20px;
+}
+#part22 a{
+    text-decoration: none;
+    color: rgb(252, 252, 252);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 500;
+}
+
+
+#part23 h1
+{
+    margin-right: 40px;
+    position: relative;
+    top: 575px;
+   padding-left: 1040px;
+   color: white;
+}
+#part23 input{
+    width: 180px;
+    height: 40px;
+    position: relative;
+    top: 595px;
+    margin-left: 1040px;
+    /* border: none; */
+    background: none;
+    color: white;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-color: rgb(254, 253, 253);
+}
+#part23 button{
+    width: 185px;
+    height: 40px;
+    position: relative;
+    top: 605px;
+    margin-left: 1040px;
+    background-color: rgb(13, 200, 238);
+    border: none;
+}
+#part23 p{
+    color: black;
+    position: relative;
+    top: 680px;
+    margin-left: 520px;
+}
+
