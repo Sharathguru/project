@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ZenCart 🛒</title>
+
+    <!-- google font style -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- My CSS  -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font Awesome Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="Navbar">
+      <h1>ZenCart 🛒</h1>
+
+      <!-- This is the home,shop,about,contact details -->
+      <div class="Navbar-links">
+        <p class="Navbar-links"><a href="index.html">Home</a></p>
+        <p class="Navbar-links"><a href="collection.html">Collections</a></p>
+        <p class="Navbar-links"><a href="Contact.html">Contact</a></p>
+      </div>
+
+      <!-- Font Awesome Three Line -->
+      <div class="Navbar-menu" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </nav>
+    <!-- Side Navebar -->
+    <div class="SideNavbar" onclick="closeNavbar()">
+      <p style="text-align: right">
+        <i class="fa-solid fa-xmark"></i>
+      </p>
+
+      <!-- this is a side navbar of home,new arrival,collection,contact us -->
+      <div class="side-Navbar-links">
+        <p class="Side-Navbar-links"><a href="">Home</a></p>
+        <p class="Side-Navbar-links"><a href="#">Collections</a></p>
+        <p class="Side-Navbar-links"><a href="#">Contact</a></p>
+      </div>
+    </div>
+
+    <!-- Contact details -->
+
+    <div class="contact-details">
+      <div class="details">
+        <h3>Contact</h3>
+        <div> 
+            <p>Name:</p>
+            <input type="text">
+        </div>
+        <div> 
+            <p>Email:</p>
+            <input type="text">
+        </div>
+        <div class="deta"> 
+            <p>Message:</p>
+            <textarea type="text"></textarea>
+        </div>
+    <button>Submit</button>
+      </div>
+    </div>
+
+    <div class="footer-section">
+      <div class="footer-container">
+        <div class="footer-box-1">
+          <h1 class="headingtext">ZenCart</h1>
+          <p>
+            The Standard chunk of Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Dolor, enim!
+          </p>
+          <div class="footer-icon">
+            <a href="https://www.linkedin.com/in/sarath-kumar-v-887b571aa/"
+              ><i class="fa-brands fa-linkedin"></i
+            ></a>
+            <a
+              href="https://www.naukri.com/mnjuser/performance#recruiterActions"
+              ><i class="fa-brands fa-github"></i
+            ></a>
+          </div>
+          <div class="footer-text">
+            <p>@ 2024 ZenCart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
